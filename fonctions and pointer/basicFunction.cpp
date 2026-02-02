@@ -1,6 +1,9 @@
-#include<iostream>
+#include<iostream.h>
 using namespace std;
 int main(){
-	  
-	retuern 0;
-} 
+	
+	 
+	
+	return 0;
+}
+
