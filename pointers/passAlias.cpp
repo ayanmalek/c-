@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std ;
-void swap(int a , int b){
+void swap(int &a , int &b){
 	int temp=a;
 	a=b;
 	b=temp;
@@ -8,10 +8,11 @@ void swap(int a , int b){
 }
 int main(){
 
-//		int a ,b ;
-//	cin >>a>>b;
-//	sawp(a,b);
-cout << sizeof(char);
+	int a ,b;
+	cin >>a>>b;
+	swap(a,b);
+	 
+    cout << a <<" " <<b;
 
 return 0;	
 	
